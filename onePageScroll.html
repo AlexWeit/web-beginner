@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>One Page Scroll</title>
+	<link rel="stylesheet" type="text/css" href="css/onePageScroll.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<ul class="link">
+			    <li class="list__item">
+			        <a href="0" class="list__link active">One</a>
+			    </li>
+			    <li class="list__item">
+			        <a href="1" class="list__link">Two</a>
+			    </li>
+			    <li class="list__item">
+			        <a href="2" class="list__link">Three</a>
+			    </li>
+			    <li class="list__item">
+			        <a href="3" class="list__link">Four</a>
+			    </li>
+			</ul>
+		</header>
+		<div class="maincontent">
+			<div class="section active" id="one">
+				<div class="section__text">1</div>
+			</div>
+			<div class="section" id="two">
+			    <div class="section__text">2</div>
+			</div>
+			<div class="section" id="three">
+			    <div class="section__text">3</div>
+			</div>
+			<div class="section" id="four">
+			    <div class="section__text">4</div>
+			</div>
+		</div>
+		<a href="#" class="scroll-to-top-btn">^</a>
+	</div>
+	<footer class="footer">Footer</footer>
+	
+	
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="js/web-jquery3/onePageScroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title>Image Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/slider-img.css">
+
+	<!--[if lt IE 9]>
+	script(src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js")
+	<![endif]-->
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="slider">
+				<div class="slider__images">
+					<ul class="slider__list">
+						<li class="slider__item active">
+							<img src="images/mount-1.jpg" alt="img 1">
+						</li>
+						<li class="slider__item">
+							<img src="images/mount-2.jpg" alt="img 2">
+						</li>
+						<li class="slider__item">
+							<img src="images/mount-3.jpg" alt="img 3">
+						</li>
+						<li class="slider__item">
+							<img src="images/mount-4.jpg" alt="img 4">
+						</li>
+					</ul>
+				</div>
+				<ul class="slider__dots">
+					<!--эта разметка генеруется через js
+					<li class="slider__dot-item">
+						<div class="slider__dot-circle"></div>
+					</li>
+					<li class="slider__dot-item">
+						<div class="slider__dot-circle"></div>
+					</li>
+					<li class="slider__dot-item">
+						<div class="slider__dot-circle"></div>
+					</li>
+					<li class="slider__dot-item">
+						<div class="slider__dot-circle"></div>
+					</li>
+					-->
+				</ul>
+				<div class="slider__controls">
+					<a href="#" class="slider__btn slider__btn-next">Next</a>
+					<a href="#" class="slider__btn slider__btn-prev">Prev</a>
+				</div>
+			</div>
+		</div>
+
+		<!--
+			++FOR PLUGIN BXSLIDER++
+
+		<div class="container">
+			<ul class="bx-slider">
+				<ul class="bx-slider__list">
+						<li class="bx-slider__item active">
+							<img src="images/mount-1.jpg" alt="img 1">
+						</li>
+						<li class="bx-slider__item">
+							<img src="images/mount-2.jpg" alt="img 2">
+						</li>
+						<li class="bx-slider__item">
+							<img src="images/mount-3.jpg" alt="img 3">
+						</li>
+						<li class="bx-slider__item">
+							<img src="images/mount-4.jpg" alt="img 4">
+						</li>
+					</ul>
+			</ul>
+		</div>
+		-->
+	</div>
+
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<!--<script src="js/web-jquery2/jquery.bxslider.min.js"></script>
+	<script src="js/web-jquery2/slider-plugin.js"></script>-->
+	<script src="js/web-jquery2/slider-img.js"></script>
+</body>
+</html>

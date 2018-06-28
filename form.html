@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form with Ajax and PHP</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+    <h1>Login form</h1>
+
+    <form action="php/form.php"
+          method="post"
+          enctype="multipart/form-data">
+        <label>Ваш адрес:</label>
+        <input type="text" name="name" value="123">
+        <label>Data: </label>
+        <input type="text" name="data">
+        <input type="checkbox" name="check" value="123">
+        <input type="radio" name="radio" value="345">
+        <input type="text" name="email">
+    </form>
+
+    <br>
+    
+    <button id="submit">Submit</button>
+
+    <div id="result"></div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/web-ajax/form.js"></script>
+</body>
+</html>
